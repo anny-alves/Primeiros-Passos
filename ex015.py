@@ -1,0 +1,7 @@
+print('_'*50)
+print('{:^50}'.format('Aluguel de carros'))
+print('_'*50)
+d = int(input('Quantos dias você passou com o carro? '))
+km = float(input('Quantos quilometros você girigiu? '))
+vf = (60*d)+(km*0.15)
+print('O valor final a ser pago é de R${:.2f}'.format(vf))

@@ -1,0 +1,6 @@
+tabela= ('Palmeiras','Corinthias','Fluminense','Athletico-PR','Flamengo','Flamengo','Internacional','Atlético-MG','Bragantino','Santos','São Paulo','Goiás', 'Botafogo','América-MG','Ceará SC', 'Coritiba','Avaí','Cuiabá','Fortaleza','Atlético GO', 'Juventude')
+print('Campeonato Brasileiro 2022 ')
+print(f'Os cinco primeiros colocados, em ordem, são:\n {tabela[0:5]}')
+print((f'Os ultimos quatr colocados são:\n {tabela[16:]}'))
+print(f'Os times participantes, em ordem alfaética, são:\n {sorted(tabela)}')
+print(f'O Atlético MG está na {tabela.index("Atlético-MG")}° posição.')

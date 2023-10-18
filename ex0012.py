@@ -1,0 +1,7 @@
+print('-'*30)
+print('{:^}'.format('Calculadora de descontos'))
+print('-'*30)
+valor = float(input('Digite o preço do item: '))
+des = float(input('Digite o valor do desconto: '))
+preco = float(valor - (valor*(des/100)))
+print('O valor final a ser pago é de {:.2f} reais'.format(preco))
